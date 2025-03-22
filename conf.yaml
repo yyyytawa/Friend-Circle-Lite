@@ -7,7 +7,7 @@
 #     enable:           是否启用合并功能，该功能提供与自部署的友链合并功能，可以解决服务器部分国外网站无法访问的问题
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
-  enable: true
+  enable: false
   json_url: "https://blog.liushen.fun/friend.json"
   article_count: 5
   merge_result:
@@ -35,7 +35,7 @@ email_push:
 #   website_info:       你的博客信息
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
-  enable: true
+  enable: false
   github_username: willow-god
   github_repo: Friend-Circle-Lite
   your_blog_url: https://blog.liushen.fun/
@@ -60,7 +60,17 @@ smtp:
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-  # - name: "Redish101"
-  #   url: "https://reblog.redish101.top/api/feed"
-  # - name: "無名小栈"
-  #   url: "https://blog.imsyy.top/rss.xml"
+   - name: "yyyyt的文档站"
+     url: "https://docs.yyyyt.top/rss.xml"
+   - name: "r1a dev"
+     url: "https://dev.oneall.eu.org/feed/"
+   - name: "绮曜"
+     url: "https://blog.245179.xyz/atom.xml"
+   - name: "Qrasa的小站"
+     url: "https://blog.qrasa.cn/feed/"
+   - name: "B84F2246"
+     url: "https://blog.b84f2246.top/atom.xml"
+   - name: "Butlanys的博客"
+     url: "https://blog.butlanys.de/rss.xml"
+   - name: "机不可失的小站
+     url: "https://blog.jibukeshi.tech/rss.xml"
