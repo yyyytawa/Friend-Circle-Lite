@@ -7,8 +7,8 @@
 #     enable:           是否启用合并功能，该功能提供与自部署的友链合并功能，可以解决服务器部分国外网站无法访问的问题
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
-  enable: false
-  json_url: "https://blog.liushen.fun/friend.json"
+  enable: true
+  json_url: "https://docs.yyyyt.top/docs/site/links.json"
   article_count: 5
   merge_result:
     enable: false
