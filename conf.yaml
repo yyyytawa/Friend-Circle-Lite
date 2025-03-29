@@ -74,3 +74,5 @@ specific_RSS:
      url: "https://blog.butlanys.de/rss.xml"
    - name: "机不可失的小站"
      url: "https://blog.jibukeshi.tech/rss.xml"
+   - name: "Creeper005の小站"
+     url: "https://creeper005bili.github.io/atom.xml"
