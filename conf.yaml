@@ -60,21 +60,7 @@ smtp:
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-   - name: "yyyyt的文档站"
-     url: "https://docs.yyyyt.top/rss.xml"
-   - name: "绮曜"
-     url: "https://blog.245179.xyz/atom.xml"
-   - name: "B84F2246"
-     url: "https://blog.b84f2246.top/atom.xml"
-   - name: "Butlanys的博客"
-     url: "https://blog.butlanys.de/rss.xml"
-   - name: "机不可失的小站"
-     url: "https://blog.jibukeshi.tech/rss.xml"
-   - name: "Creeper005の小站"
-     url: "https://creeper005bili.github.io/atom.xml"
    - name: "一个一个一个小站（悲"
      url: "https://sanlian114514.eu.org/wordpress/feed/"
-   - name: "夜轻Blog"
-     url: "https://blog.yeqing.net/rss.xml"
    - name: "XiaoPang的个人博客"
      url: "https://blog.xpdbk.com/index.xml"
